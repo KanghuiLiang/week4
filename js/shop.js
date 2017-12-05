@@ -33,7 +33,7 @@ var shop = {
         this.totalPrice = this.price[0] + this.price[1] + this.price[2] + this.price[3] + this.price[4];
         this.totalPrice = 0.75 * this.totalPrice;
         var totalPriceElement = document.getElementById("price");
-        var totalPriceText = "$" + this.totalPrice + "<span class='badge'>25% off";
+        var totalPriceText = "$" + this.totalPrice + "<span class='badge' style='background-color:red'>25% off";
 
 
         totalPriceElement.innerHTML = totalPriceText;
